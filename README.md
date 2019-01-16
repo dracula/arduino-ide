@@ -13,7 +13,7 @@ $ git clone https://github.com/STiXzoOR/Dracula-for-Arduino.git
 ```
 and then run the install.sh by entering:
 ```
-$ ./install.sh
+$ ./setup.sh --install
 ```
 
 ### Install manually
