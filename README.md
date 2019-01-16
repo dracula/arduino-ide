@@ -11,7 +11,7 @@ You can install the theme and keep up to date by cloning the repo:
 ```
 $ git clone https://github.com/STiXzoOR/Dracula-for-Arduino.git
 ```
-and then run the install.sh by entering:
+and then run the **setup.sh** by entering:
 ```
 $ ./setup.sh --install
 ```
