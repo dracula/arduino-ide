@@ -1,0 +1,129 @@
+###############################################################################
+#																			GUI																			#
+###############################################################################
+
+# BUTTONS
+buttons.status.font = Monaco,plain,12
+buttons.bgcolor = #191A22
+buttons.status.color = #F8F8F2
+
+# TABS
+# settings for the tabs at the top
+# (tab images are stored in the lib/theme folder)
+header.text.font = Monaco,plain,12
+header.bgcolor = #191A22
+header.text.selected.color = #F8F8F2
+header.text.unselected.color = #6272A4
+
+# STATUS
+status.font = Monaco,plain,12
+status.notice.fgcolor = #F8F8F2
+status.notice.bgcolor = #424450
+status.error.fgcolor = #424450
+status.error.bgcolor = #FF5555
+status.edit.fgcolor = #424450
+status.edit.bgcolor = #FFB86C
+
+# CONSOLE
+console.font = Monaco,plain,12
+console.font.macosx = Monaco,plain,12
+console.color = #191A21
+console.output.color = #F8F8F2
+console.error.color = #FF5555
+
+# LINESTATUS
+# editor line number status bar at the bottom of the screen
+linestatus.font	= Monaco,plain,10
+linestatus.height  = 20
+linestatus.color = #F8F8F2
+linestatus.bgcolor = #424450
+
+# PLOTTING
+# color cycle created via colorbrewer2.org
+plotting.bgcolor = #F8F8F2
+plotting.color = #F8F8F2
+plotting.graphcolor.size = 4
+plotting.graphcolor.00 = #2C7BB6
+plotting.graphcolor.01 = #FFB86C
+plotting.graphcolor.02 = #FF5555
+plotting.graphcolor.03 = #8BE9FD
+
+###############################################################################
+#																		EDITOR																		#
+###############################################################################
+
+# FOREGROUND/BACKGROUND
+editor.fgcolor = #F8F8F2
+editor.bgcolor = #282A36
+
+# FONTS
+editor.font = Monaco,plain,12
+editor.font.macosx = Monaco,plain,12
+
+# SELECTION
+editor.selection.color = #424450
+
+# CURRENT LINE HIGHLIGHT
+editor.linehighlight.color=#44475A
+# highlight for the current line
+editor.linehighlight=true
+
+# BRACKET/BRACES HIGHLIGHT
+editor.brackethighlight = true
+editor.brackethighlight.color = #FF5555
+
+# CURSOR
+editor.caret.color = #F8F8F0
+
+# EXTERNAL EDITOR
+editor.external.bgcolor = #21222C
+
+# INVALID
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #FFB86C,bold
+
+# EOLMARKERS
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #999999
+
+###############################################################################
+#																			TEXT																		#
+###############################################################################
+
+# COMMENTS
+editor.comment1.style = #6272A4,plain
+editor.comment2.style = #6272A4,plain
+
+# FUNCTIONS
+editor.keyword1.style = #50FA7B,bold
+editor.data_type.style = #8BE9FD,bold
+
+# METHODS
+editor.keyword2.style = #50FA7B,plain
+editor.function.style = #FF5555,plain
+
+# STRUCTURES
+editor.keyword3.style = #FF79C6,plain
+editor.reserved_word.style = #FF79C6,plain
+
+# LITERALS
+editor.literal1.style = #8BE9FD,plain
+editor.literal2.style = #8BE9FD,plain
+editor.variable.style = #8BE9FD,plain
+editor.reserved_word_2.style = #8BE9FD,plain
+editor.literal_boolean.style = #BD93F9,plain
+editor.literal_char.style = #F1FA8C,plain
+editor.literal_string_double_quote.style = #F1FA8C,plain
+editor.preprocessor.style = #FF79C6,plain
+
+# HYPERLINKS
+editor.url.style = #2C7BB6,plain
+
+# OPERATORS
+editor.operator.style = #FF79C6,plain
+
+# LABELS
+# ?? maybe this is for words followed by a colon
+# like in case statements or goto
+editor.label.style = #FF79C6,bold
