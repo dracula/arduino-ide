@@ -29,6 +29,15 @@ Download using the [GitHub .zip download](https://github.com/STiXzoOR/Dracula-fo
 * Replace the now renamed **theme** folder with the one from the downloaded zip.
 * Run arduino!
 
+## Team
+
+This theme is maintained by the following person(s) and a bunch of
+[awesome contributors](https://github.com/dracula/arduino/graphs/contributors).
+
+[![Neoptolemos Kyriakou](https://avatars2.githubusercontent.com/u/23358296?v=3&s=70)](https://github.com/STiXzoOR) |
+:---: |
+[Neoptolemos Kyriakou](https://github.com/STiXzoOR) |
+
 ## License
 
 [MIT License](./LICENSE)
