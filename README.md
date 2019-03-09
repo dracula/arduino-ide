@@ -19,15 +19,23 @@ $ ./setup.sh --install
 ### Install manually
 Download using the [GitHub .zip download](https://github.com/STiXzoOR/Dracula-for-Arduino/archive/master.zip) option and unzip them.
 
-* Arduino themes directory
-	- **MacOS:** `/Applications/Arduino.app/Contents/Java/lib`
-	- **Windows:** `C:/Program Files (x86)/Arduino/lib`
-	- **Linux:** `/usr/share/arduino/lib/`
+* **Windows:**
+	- Navigate to `C:/Program Files (x86)/Arduino/lib/`
+	- Rename **theme** folder to **theme.bak**.
+	- Copy the `./arduino/theme` folder to the `C:/Program Files (x86)/Arduino/lib/` directory on your local machine.
+	-	Close and re-open Arduino IDE!
 
-* Navigate to arduino themes directory depending on what OS you are.
-* Rename **theme** to **theme.bak**.
-* Replace the now renamed **theme** folder with the one from the downloaded zip.
-* Run arduino!
+* **MacOS:**
+	- Navigate to `/Applications/Arduino.app/Contents/Java/lib/`
+	- Rename **theme** folder to **theme.bak**.
+	- Copy the `./arduino/theme` folder to the `/Applications/Arduino.app/Contents/Java/lib/` directory on your local machine.
+	-	Close and re-open Arduino IDE!
+
+* **Linux:**
+	- Navigate to `/usr/share/arduino/lib/`
+	- Rename **theme** folder to **theme.bak**.
+	- Copy the `./arduino/theme` folder to the `/usr/share/arduino/lib/` directory on your local machine.
+	-	Close and re-open Arduino IDE!
 
 ## Team
 
