@@ -5,13 +5,13 @@
 You can install the theme and keep up to date by cloning the repo:
 
 ```
-$ git clone https://github.com/dracula/arduino-ide.git
+git clone https://github.com/dracula/arduino-ide.git
 ```
 
 and then run the **setup.sh** by entering:
 
 ```
-$ ./setup.sh --install
+./setup.sh --install
 ```
 
 #### Install manually
