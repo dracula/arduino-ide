@@ -31,7 +31,7 @@ Download using the [GitHub .zip download](https://github.com/dracula/arduino-ide
 - Close and re-open Arduino IDE!
 
 **Linux:**
-- Navigate to `/usr/share/arduino/lib/`
+- Navigate to `/usr/lib64/arduino/lib/`
 - Rename **theme** folder to **theme.bak**.
-- Copy the `./arduino/theme` folder to the `/usr/share/arduino/lib/` directory on your local machine.
+- Copy the `./arduino/theme` folder to the `/usr/lib64/arduino/lib/` directory on your local machine.
 - Close and re-open Arduino IDE!
